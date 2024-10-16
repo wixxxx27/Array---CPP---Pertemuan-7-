@@ -8,13 +8,13 @@ int main()
 {
     int n;
 
-    //  meminta untuk memasukan jumalah array
+    
     cout << "\n\nMasukkan jumlah elemen array: ";
     cin >> n;
 
     int nilai[n];
 
-    //input jumlah array
+   
     cout << "Masukkan elemen array:\n";
     for (int i = 0; i < n; i++) 
     {
@@ -22,7 +22,7 @@ int main()
         cin >> nilai[i];
     }
 
-    // Mencari nilai tertinggi di array
+    
     int maksimum = nilai[0];
     for (int i = 1; i < n; i++) 
     {
@@ -34,12 +34,12 @@ int main()
     
     cout << "\nNilai tertinggi dalam array: " << maksimum << endl;
 
-    //input memasukkan angka untuk dicari
+    
     int angka;
     cout << "\nMasukkan angka yang ingin diperiksa: ";
     cin >> angka;
 
-    // Memeriksa apakah angka ada di array, jika ada tampilkan indeksnya
+     
     bool found = false;
     for (int i = 0; i < n; i++) 
     {
